@@ -80,7 +80,7 @@ go run main.go proxy.go
 
 ```
 
-*The server will start on: `http://localhost:29050` (or the port defined in `main.go`).*
+*The server will start on: `http://localhost:8080` (or the port defined in `main.go`).*
 
 ### 4. Production Build
 
@@ -128,7 +128,7 @@ server {
     server_name api.yourdomain.com; # Replace with your domain
 
     location / {
-        proxy_pass [http://127.0.0.1:29050](http://127.0.0.1:29050);
+        proxy_pass [http://127.0.0.1:8080](http://127.0.0.1:8080);
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
