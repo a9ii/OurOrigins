@@ -1,0 +1,14 @@
+{
+  "1": {
+    "target_url": "https://jsonplaceholder.typicode.com/users/1",
+    "format": "json"
+  },
+  "2": {
+    "target_url": "https://httpbin.org/get",
+    "format": "raw"
+  },
+  "secret_api": {
+    "target_url": "https://jsonplaceholder.typicode.com/posts/1",
+    "format": "jsonp"
+  }
+}
