@@ -154,7 +154,7 @@ Contributions are always welcome! Whether it's a performance improvement, a bug 
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/a9ii/OurOrigins/blob/main/LICENSE) file for details.
 
 ---
 
