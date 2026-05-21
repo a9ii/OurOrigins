@@ -8,9 +8,10 @@
 **OurOrigins** is a high-performance, open-source CORS Proxy and API Gateway built entirely in Go (Golang) utilizing exclusively the standard library (Zero Dependencies). 
 
 Engineered for maximum security and speed, it implements a strict "Pre-configured Aliases" architecture. API routes are parsed and loaded directly into RAM during server startup, ensuring blazing-fast $O(1)$ time complexity for request routing with absolutely zero disk I/O per request.
+![UI Screenshot](link-to-image.png)
 
 ---
-![UI Screenshot](link-to-image.png)
+
 ## ✨ Key Features
 
 * 🚀 **High Performance & Zero Dependencies:** Built strictly with the standard `net/http` package to achieve maximum throughput and minimal resource footprint.
