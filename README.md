@@ -48,7 +48,7 @@ OurOrigins/
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/a9ii/OurOrigins.git](https://github.com/a9ii/OurOrigins.git)
+git clone https://github.com/a9ii/OurOrigins.git
 cd OurOrigins
 
 ```
