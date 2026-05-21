@@ -60,12 +60,16 @@ Edit the `config.json` file to define your secure aliases:
 ```json
 {
   "1": {
-    "target_url": "[https://jsonplaceholder.typicode.com/users/1](https://jsonplaceholder.typicode.com/users/1)",
+    "target_url": "https://jsonplaceholder.typicode.com/users/1",
     "format": "json"
   },
-  "secret_api": {
-    "target_url": "[https://api.example.com/v1/data](https://api.example.com/v1/data)",
+  "2": {
+    "target_url": "https://httpbin.org/get",
     "format": "raw"
+  },
+  "secret_api": {
+    "target_url": "https://jsonplaceholder.typicode.com/posts/1",
+    "format": "jsonp"
   }
 }
 
